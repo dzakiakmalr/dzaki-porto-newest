@@ -4,58 +4,59 @@ import { Badge } from "@/components/ui/Badge";
 import { Reveal } from "@/components/ui/Reveal";
 
 export function Projects() {
+  const supporting = projects.filter((p) => !p.featured);
+
   return (
-    <section id="projects" className="scroll-mt-24 py-16">
+    <section id="work" className="scroll-mt-24 py-12">
       <div className="mx-auto max-w-5xl px-4">
         <Reveal>
           <div className="mb-10 flex flex-col gap-2">
             <h2 className="font-display text-3xl font-bold text-text">
-              Selected work
+              More work
             </h2>
             <p className="max-w-xl text-text-muted">
-              Each one is a small story — the problem, what I did, and what came
-              of it. Langganin is featured; the others show range.
+              Two more real projects to show range, client work and cloud
+              infrastructure.
             </p>
           </div>
         </Reveal>
 
-        <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
-          {projects.map((project, i) => (
+        <div className="flex flex-col gap-6">
+          {supporting.map((project, i) => (
             <Reveal key={project.slug} delay={i * 0.05}>
-              <article
-                className={`flex h-full flex-col rounded-card clay-gradient p-6 shadow-clay transition-[transform,box-shadow] duration-200 ease-out hover:-translate-y-1 hover:shadow-clay-hover ${
-                  project.featured ? "sm:col-span-2" : ""
-                }`}
-              >
-                <div className="mb-4 flex items-start justify-between gap-3">
-                  <h3 className="font-display text-xl font-bold text-text">
-                    {project.title}
-                  </h3>
-                  <span className="whitespace-nowrap rounded-pill bg-surface px-2.5 py-1 text-xs font-semibold text-brand-600">
-                    {project.tagline}
-                  </span>
+              <article className="flex h-full flex-col gap-4 rounded-card clay-gradient p-6 shadow-clay transition-[transform,box-shadow] duration-200 ease-out hover:-translate-y-1 hover:shadow-clay-hover sm:p-7 lg:flex-row">
+                <div className="flex flex-1 flex-col">
+                  <div className="mb-2 flex flex-wrap items-center justify-between gap-3">
+                    <h3 className="font-display text-xl font-bold text-text">
+                      {project.title}
+                    </h3>
+                    <span className="whitespace-nowrap rounded-pill bg-surface px-2.5 py-1 text-xs font-semibold text-brand-600">
+                      {project.tagline}
+                    </span>
+                  </div>
+
+                  <p className="text-sm leading-relaxed text-text-muted">
+                    <span className="font-semibold text-text">Problem.</span>{" "}
+                    {project.problem}
+                  </p>
+                  <p className="mt-2 text-sm leading-relaxed text-text-muted">
+                    <span className="font-semibold text-text">What I did.</span>{" "}
+                    {project.did}
+                  </p>
+
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    {project.tags.map((tag) => (
+                      <Badge
+                        key={tag.label}
+                        label={tag.label}
+                        color={tag.color}
+                        logo={tag.logo}
+                      />
+                    ))}
+                  </div>
                 </div>
 
-                <p className="text-sm leading-relaxed text-text-muted">
-                  <span className="font-semibold text-text">The problem.</span>{" "}
-                  {project.problem}
-                </p>
-                <p className="mt-3 text-sm leading-relaxed text-text-muted">
-                  <span className="font-semibold text-text">What I did.</span>{" "}
-                  {project.did}
-                </p>
-                <p className="mt-3 text-sm leading-relaxed text-text">
-                  <span className="font-semibold text-text">Outcome.</span>{" "}
-                  {project.outcome}
-                </p>
-
-                <div className="mt-5 flex flex-wrap gap-2">
-                  {project.tags.map((tag) => (
-                    <Badge key={tag.label} label={tag.label} color={tag.color} />
-                  ))}
-                </div>
-
-                <div className="mt-auto flex items-center gap-3 pt-5">
+                <div className="flex shrink-0 flex-row items-center gap-3 lg:flex-col lg:items-start lg:justify-center">
                   {project.demoUrl && (
                     <a
                       href={project.demoUrl}
@@ -75,7 +76,6 @@ export function Projects() {
                       className="inline-flex items-center gap-1.5 rounded-pill px-4 py-2 text-xs font-semibold text-text-muted transition-colors hover:bg-clay-100 hover:text-text focus-visible:ring-2 focus-visible:ring-brand-500/40 focus-visible:outline-none"
                     >
                       <GitFork size={14} />
-                      Repo
                       Repo
                     </a>
                   )}

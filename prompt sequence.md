@@ -109,7 +109,7 @@ glass), (c) apa stack yang dipakai dan kenapa, (d) apa konten portofolio saya
 (proof statement, case study 3 proyek). Setelah itu, tanya saya apakah ada yang
 kurang jelas sebelum kita mulai Minggu 1.
 ```
-
+####DONE####
 ---
 
 ## FASE 1 — MINGGU 1: Decide What You're Proving
@@ -119,7 +119,7 @@ kurang jelas sebelum kita mulai Minggu 1.
 **Prompt 1.1 — Narrowing interview (menemukan klaim/person/action asli kamu):**
 
 ```
-I am switching into {frontend/AI engineering} and building a portfolio whose only
+I am switching into frontend AI engineering and building a portfolio whose only
 job is to prove I can do one thing well, so someone will hire or work with me.
 Interview me to find three things: the ONE claim I am proving, the ONE specific
 person I am proving it to, and the ONE action I want them to take. Ask me one

@@ -1,4 +1,4 @@
-import { Space_Grotesk, Plus_Jakarta_Sans } from "next/font/google";
+import { Space_Grotesk, Plus_Jakarta_Sans, Fraunces } from "next/font/google";
 
 const space = Space_Grotesk({
   subsets: ["latin"],
@@ -12,5 +12,12 @@ const jakarta = Plus_Jakarta_Sans({
   weight: ["400", "500", "600", "700"],
 });
 
-export const fontVariables = `${space.variable} ${jakarta.variable}`;
-export { space, jakarta };
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-fraunces",
+  weight: ["500", "600", "700"],
+  style: ["normal", "italic"],
+});
+
+export const fontVariables = `${space.variable} ${jakarta.variable} ${fraunces.variable}`;
+export { space, jakarta, fraunces };

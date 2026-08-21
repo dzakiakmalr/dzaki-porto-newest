@@ -4,12 +4,11 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
+const EMAIL = "dzakirabbania@gmail.com";
+
 const links = [
+  { href: "#work", label: "Work" },
   { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
-  { href: "#skills", label: "Skills" },
-  { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
 ];
 
 export function Navbar() {
@@ -17,7 +16,7 @@ export function Navbar() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4">
-      <nav className="glass-panel-strong mx-auto flex max-w-5xl items-center justify-between rounded-pill py-2 pl-3 pr-2">
+      <nav className="glass-nav mx-auto flex max-w-5xl items-center justify-between rounded-pill py-2 pl-3 pr-2">
         <a
           href="#top"
           className="flex items-center gap-2 rounded-pill p-1.5 focus-visible:ring-2 focus-visible:ring-brand-500/40 focus-visible:outline-none"
@@ -43,19 +42,19 @@ export function Navbar() {
         </div>
 
         <div className="hidden md:block">
-          <Button variant="primary" href="#contact" size="md">
-            Get In Touch
+          <Button variant="primary" href={`mailto:${EMAIL}`} size="md">
+            Email me
           </Button>
         </div>
 
         <div className="flex items-center md:hidden">
           <Button
-            variant="secondary"
-            href="#contact"
+            variant="primary"
+            href={`mailto:${EMAIL}`}
             size="md"
             className="mr-1"
           >
-            Contact
+            Email me
           </Button>
           <button
             type="button"
@@ -82,6 +81,12 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
+            <a
+              href={`mailto:${EMAIL}`}
+              className="mt-2 rounded-pill bg-brand-500 px-4 py-3 text-center text-sm font-bold text-white shadow-clay transition-[transform,box-shadow] duration-200 ease-out hover:-translate-y-[1px] hover:shadow-clay-hover"
+            >
+              Email me
+            </a>
           </div>
         </div>
       )}

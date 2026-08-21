@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Reveal } from "@/components/ui/Reveal";
+import { Mail } from "lucide-react";
 
 export function ContactCTA() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
@@ -45,9 +46,17 @@ export function ContactCTA() {
               Let&apos;s build something together
             </h2>
             <p className="mx-auto mt-3 max-w-md text-text-muted">
-              Tell me what you&apos;re building and who you need. I&apos;ll get
-              back to you.
+              Tell me what you&apos;re building and who you need. The quickest way
+              to reach me is email, or you can leave a message below.
             </p>
+
+            <a
+              href="mailto:dzakirabbania@gmail.com"
+              className="mt-6 inline-flex items-center gap-2 rounded-pill bg-brand-500 px-8 py-3 text-sm font-bold text-white shadow-clay transition-[transform,box-shadow] duration-200 ease-out hover:-translate-y-[1px] hover:bg-brand-600 hover:shadow-clay-hover active:shadow-pressed active:translate-y-0 focus-visible:ring-2 focus-visible:ring-brand-500/40 focus-visible:outline-none"
+            >
+              <Mail size={16} />
+              Email me at dzakirabbania@gmail.com
+            </a>
 
             <form
               name="contact"
@@ -108,7 +117,7 @@ export function ContactCTA() {
 
               {status === "sent" && (
                 <p className="text-center text-sm font-semibold text-success">
-                  Thanks — I&apos;ll be in touch.
+                  Thanks, I&apos;ll be in touch.
                 </p>
               )}
               {status === "error" && (

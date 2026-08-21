@@ -1,4 +1,4 @@
-import { GitFork, AtSign, Mail } from "lucide-react";
+import { GitFork, AtSign, Mail, FileDown, BadgeCheck } from "lucide-react";
 
 export function Footer() {
   return (
@@ -9,11 +9,21 @@ export function Footer() {
             Dzaki Alqadrie
           </p>
           <p className="text-xs text-text-subtle">
-            Frontend AI Engineer building AI-native products.
+            Frontend AI Engineer building products people use.
           </p>
         </div>
 
         <div className="flex items-center gap-2">
+          <a
+            href="/CV_Dzaki.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Download CV"
+            className="flex h-9 items-center gap-1.5 rounded-pill bg-clay-100 px-3 text-xs font-semibold text-text-muted transition-colors hover:bg-clay-200 hover:text-text focus-visible:ring-2 focus-visible:ring-brand-500/40 focus-visible:outline-none"
+          >
+            <FileDown size={16} />
+            CV
+          </a>
           {[
             {
               href: "https://github.com/kulinerkita",
@@ -40,6 +50,17 @@ export function Footer() {
           ))}
         </div>
       </div>
+
+      <div className="mt-6 flex justify-center">
+        <span className="inline-flex items-center gap-1.5 text-[11px] font-medium text-text-subtle">
+          <BadgeCheck size={14} className="text-brand-500" />
+          FlyRank AI Fluency Internship
+        </span>
+      </div>
+
+      <p className="mt-3 text-center text-[11px] text-text-subtle">
+        © {new Date().getFullYear()} Dzaki Alqadrie
+      </p>
     </footer>
   );
 }

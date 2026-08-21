@@ -14,19 +14,29 @@ Konten ini disusun mengikuti kerangka resmi program (lihat `00-CAPSTONE-BRIEF.md
 
 ## Proof statement (Minggu 1)
 
-> `[DRAFT — pertajam lewat AI-interview, lihat prompt "narrowing interview" di 00-CAPSTONE-BRIEF.md]`
+> ✅ **Final, hasil AI-interview (1 klaim · 1 audience · 1 action).**
 
-**Draft awal:**
+**Final:**
+
+Saya membangun Langganin, aplikasi open source yang lahir dari masalah pribadi: takut uang saya habis karena lupa membatalkan trial AI. Ini contoh cara saya bekerja — mengidentifikasi masalah, lalu membuat solusi yang sesederhana mungkin. Produknya live dan bisa Anda buka sendiri: kirim email ke saya, dan saya akan tunjukkan bagaimana pendekatan ini bisa membantu tim Anda.
+
+- **Satu klaim**: bisa mengambil ide produk sampai jadi aplikasi yang benar-benar live & dipakai orang — "simple, useful, enjoyable" (versi proof statement turunan: "I build products that get used — not just a demo"). Bukti utama = Langganin yang bisa dicoba publik (open source, ada live link), bukan teknologi yang disebut-sebut.
+- **Satu audience**: **HRD di startup kecil / software house** yang mencari frontend engineer — bukan "semua orang", bukan "hiring manager generik". Klaim harus bisa *dirasakan* orang non-teknis (masalah nyata kartu kepotong trial), bukan hanya dimengerti engineer.
+- **Satu action**: **kirim email ke dzakirabbania@gmail.com** (utamanya; sekunder = download CV). Seluruh CTA situs mengarah ke aksi ini — bukan "resume" atau aksi lain.
+
+**Catatan jujur (batasan yang disadari, jangan disembunyikan di copy):**
+- Langganin saat ini masih tahap **develop backend** → belum ada user massal di luar Dzaki. Yang bisa dibuktikan & ditampilkan hari ini adalah UI/landing yang sudah live & bisa dicoba publik, bukan angka pengguna. Copy harus jujur soal ini, dan menampilkan "proses & desain" alih-alih klaim adopsi.
+- Kata "AI-native" serta sengaja dilepas dari posisi label di proof statement — bukti nyata (produk live) lebih kuat daripada menyebut teknologinya.
+
+**Draft awal (yang digantikan):**
 
 Saya membangun aplikasi web AI-native dari nol sampai live — memakai AI sebagai mitra kerja, bukan cuma alat ngetik kode lebih cepat — untuk seorang hiring manager di startup/tech company kecil yang butuh frontend engineer yang paham workflow AI-assisted development modern, sehingga mereka mau menghubungi saya untuk ngobrol/interview.
 
-- **Satu klaim**: bisa mengambil ide produk (subscription tracker, admin panel, culinary recommendation app) sampai jadi aplikasi yang benar-benar jalan di production, dengan AI sebagai co-worker di setiap tahap (desain, kode, deploy).
-- **Satu audience**: hiring manager / tech lead di startup atau tim engineering kecil yang sedang mencari frontend engineer entry-level yang sudah fasih bekerja dengan AI tools (bukan "semua orang", bukan "recruiter besar" — target realistis untuk fresh grad/intern).
-- **Satu action**: menghubungi Dzaki via email/LinkedIn untuk ngobrol lebih lanjut atau menawarkan interview/magang lanjutan.
+- **Satu klaim**: bisa mengambil ide produk sampai jadi aplikasi yang jalan di production, dengan AI sebagai co-worker.
+- **Satu audience**: hiring manager / tech lead di startup atau tim engineering kecil yang mencari frontend engineer entry-level yang fasih AI tools.
+- **Satu action**: menghubungi Dzaki via email/LinkedIn untuk ngobrol / interview / magang lanjutan.
 
-**Kenapa ini perlu ada (yang tidak bisa dibuktikan CV/LinkedIn saja)**: CV cuma bisa bilang "pernah pakai Next.js dan AI workflow" — portofolio ini menunjukkan *hasil jadinya secara langsung*: Langganin bisa dicoba live, kode dan keputusan desainnya bisa dijelaskan, dan prosesnya (termasuk yang gagal/dibongkar ulang) diceritakan jujur.
-
-`[TODO: jalankan prompt "Start the narrowing interview" dari 00-CAPSTONE-BRIEF.md dengan AI untuk mempertajam audience — apakah "startup kecil" sudah cukup spesifik, atau perlu dipersempit lagi misal "startup SaaS Indonesia yang produknya dipakai orang awam (bukan developer)"?]`
+**Kenapa versi final lebih baik**: draft awal menumpuk tiga sub-klaim sekaligus ("AI-native" + "dipakai orang" + "simple-useful-enjoyable") dan menargetkan "hiring manager generik". Versi final memaksa satu klaim (produk live), satu audience spesifik (HRD startup), dan satu action (email) — serta menonjolkan masalah pribadi konkret yang bisa dirasakan audiens.
 
 ## Voice card (Minggu 2)
 
