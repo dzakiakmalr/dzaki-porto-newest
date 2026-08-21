@@ -1,0 +1,87 @@
+DZAKI AKMAL RABBANI ALQADRIE 
+Informatics Student at Universitas Sebelas Maret 
+
+dzakirabbania@gmail.com 
+
++628981391372 
+linkedin.com/in/alqadrie28 
+
+Pontianak City, West Kalimantan, Indonesia 
+Currently pursuing a Bachelor’s degree in Informatics at Universitas Sebelas Maret, expected to graduate in 2026. Alongside academic studies, certi.cations in CCNA and Linux scripting complement a strong foundation in networking, cloud computing, and programming. As a Frontend Developer at Merpati Solo Bakery, contributing to the development of an Admin Panel that enhances product management, order tracking, and customer engagement. Previous roles include developing a user-focused frontend application for an eco-friendly hotel reservation system using Next.js, TypeScript, and Tailwind CSS, showcasing expertise in responsive design and modern component architecture. Also served as a Teaching Assistant, facilitating hands-on learning in computer networking. 
+
+Experience 
+Frontend Developer Merpati Solo Bakery -Surakarta, Central Java, Indonesia September 2025 -May 2026 
+
+Developed a comprehensive digital management system and Admin Panel for Merpati Solo Bakery to streamline product management, order tracking, and customer engagement. 
+
+Independently 
+crafted user personas and high-.delity interface designs manually from scratch using Figma, ensuring an intuitive and user-centric experience. 
+
+
+Leveraged 
+cutting-edge AI-native development work.ows to rapidly prototype, optimize, and scale the frontend architecture using Next.js, React.js, and TypeScript. 
+
+
+Drastically 
+reduced development lifecycle duration while maintaining clean, robust code and a seamless user experience. 
+
+
+Teaching Assistant for Computer Networks Course 
+Universitas Sebelas Maret -Surakarta, Central Java, March 2025 -June 2025 Indonesia 
+
+Facilitated 
+hands-on learning as a Computer Network Practicum Assistant using Cisco's ITN 7 curriculum. 
+
+
+Prepared 
+lab materials and guided students through networking protocols. 
+
+
+Troubleshot 
+issues and collaborated with other assistants and lecturers to align labs with course objectives. 
+
+
+Stayed 
+updated on networking technologies and provided feedback to enhance student learning. 
+
+
+Cloud Computing Cohort Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka September 2024 -December 2024 
+
+Completed an intensive 4-month Cloud Computing program developing expertise in cloud infrastructure design, backend development, and system scalability. 
+
+Developed 
+the cloud infrastructure and server-side logic for "KulinerKita," a culinary recommendation mobile app tailored for Surakarta's tourism and MSME ecosystem. 
+
+
+Utilized 
+Google Cloud native services, including Cloud Run and App Engine, to deploy a modular, serverless application framework. 
+
+
+Developed 
+robust RESTful APIs with Node.js and Express to handle advanced frontend queries. 
+
+
+Administered 
+Cloud SQL (MySQL) databases and integrated deployed machine learning models for real-time personalized restaurant suggestions. 
+
+
+
+GitHub: https://github.com/kulinerkita/ 
+
+Education 
+Bachelor's degree, Informatics 
+Universitas Sebelas Maret Science 
+SMA Negeri 1 Pontianak 
+
+Certi.cations 
+Menjadi Google Cloud Engineer CCNA: Introduction to Networks Introduction to Cybersecurity Belajar Dasar AI Google Cloud Computing Foundations Certi.cate 
+
+Skills 
+Automation -Beginner 
+n8n -Beginner 
+Prompt Engineering -Beginner 
+
+Languages 
+English 
+
+

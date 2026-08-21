@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #FBE4D8;
+  --color-brand-100: #F7D4C2;
+  --color-brand-400: #EE8A66;
+  --color-brand-500: #E26B43;
+  --color-brand-600: #C95A36;
+  --color-brand-glow: rgba(226, 107, 67, 0.18);
+
+  --color-bg: #F2EFEC;
+  --color-bg-elevated: #EAE6E0;
+  --color-surface: #FFFFFF;
+  --color-surface-soft: #FAF8F6;
+  --color-clay-100: #F4F1ED;
+  --color-clay-200: #ECE7E1;
+
+  --color-text: #1F2024;
+  --color-text-muted: #5C5A57;
+  --color-text-subtle: #8C8884;
+
+  --color-success: #2F8F5E;
+  --color-warning: #C77B1E;
+  --color-danger: #B43C2C;
+  --color-info: #3D6FCC;
+
+  --color-glass-fill: rgba(255, 255, 255, 0.62);
+  --color-glass-border: rgba(255, 255, 255, 0.75);
+
+  --radius-card: 24px;
+  --radius-pill: 9999px;
+
+  --font-display: var(--font-space), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* --- Claymorphism --- */
+@utility shadow-clay {
+  box-shadow:
+    -6px -6px 16px rgba(255, 255, 255, 0.85),
+    8px 8px 22px rgba(15, 23, 42, 0.08);
+}
+
+@utility shadow-clay-hover {
+  box-shadow:
+    -7px -7px 18px rgba(255, 255, 255, 0.9),
+    10px 10px 26px rgba(15, 23, 42, 0.1);
+}
+
+@utility shadow-pressed {
+  box-shadow:
+    inset 4px 4px 10px rgba(15, 23, 42, 0.07),
+    inset -4px -4px 10px rgba(255, 255, 255, 0.7);
+}
+
+@utility clay-gradient {
+  background: linear-gradient(135deg, #f8f6f4 0%, #f1edea 100%);
+}
+
+@utility clay-icon {
+  background: linear-gradient(135deg, #fdf1ea 0%, #f6cfb6 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.85),
+    0 6px 14px rgba(15, 23, 42, 0.08);
+}
+
+/* --- Glassmorphism --- */
+@utility glass-panel-sm {
+  background: var(--color-glass-fill);
+  border: 1px solid var(--color-glass-border);
+  backdrop-filter: blur(12px) saturate(140%);
+}
+
+@utility glass-panel {
+  background: var(--color-glass-fill);
+  border: 1px solid var(--color-glass-border);
+  backdrop-filter: blur(20px) saturate(160%);
+}
+
+@utility glass-panel-lg {
+  background: var(--color-glass-fill);
+  border: 1px solid var(--color-glass-border);
+  backdrop-filter: blur(32px) saturate(180%);
+}
+
+@utility glass-panel-strong {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid var(--color-glass-border);
+  backdrop-filter: blur(20px) saturate(160%);
+}
+
+@utility glass-panel-solid {
+  background: #ffffff;
+  border: 1px solid var(--color-glass-border);
+}
+
+/* --- Signature blob backgrounds --- */
+@utility bg-blob-a {
+  position: fixed;
+  top: -10%;
+  left: -10%;
+  width: 60vw;
+  height: 60vw;
+  background: var(--color-brand-glow);
+  filter: blur(60px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+@utility bg-blob-b {
+  position: fixed;
+  bottom: -15%;
+  right: -10%;
+  width: 50vw;
+  height: 50vw;
+  background: var(--color-brand-glow);
+  filter: blur(60px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+@utility bg-dots {
+  background-image: radial-gradient(rgba(15, 23, 42, 0.1) 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+}
+
+/* --- Shimmer (loading skeleton) --- */
+@utility animate-shimmer {
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* --- Focus states (accessibility) --- */
+@utility focus-ring {
+  focus-visible: ring-2 ring-brand-500/40 outline-none;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-space), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--color-brand-500);
+  color: #ffffff;
+}

@@ -1,0 +1,124 @@
+Contact
+
++628981391372 (Work)
+
+This is the email address link
+
+
+This is the Linkedin profile link
+
+
+Top Skills
+
+Vue.js
+
+Front-end Engineering
+
+Shopify
+
+Certifications
+
+Menjadi Google Cloud Engineer
+
+CCNA: Introduction to Networks
+
+Introduction to Cybersecurity
+
+Certificate of completion: Claude 101
+
+Belajar Dasar AI
+
+Dzaki Akmal Rabbani Alqadrie
+
+Informatics Student at Universitas Sebelas Maret
+
+Pontianak City, West Kalimantan, Indonesia
+
+Summary
+
+Designing and building products where AI meets great userexperiences.Currently a Front-End AI Engineering Intern at FlyRankAI and an Informatics student at Universitas Sebelas Maret.
+Previously, I worked as a Software Engineer Intern at Merpati SoloBakery, contributing to digital initiatives and product development.I'mpassionate about AI-native applications, front-end engineering, andcreating products that are simple, useful, and enjoyable to use. Ibelieve technology should not only work well, but also feel effortless.
+
+Experience
+
+FlyRank AI
+
+Front-end AI Engineering Intern
+
+June 2026 - Present (3 months)
+Indonesia
+
+Currently interning at FlyRank AI as an AI intern, focusing on Front-end AIEngineering.
+
+
+
+Merpati Solo Bakery
+
+Frontend Developer
+
+September 2025 - May 2026 (9 months)
+Surakarta, Central Java, Indonesia
+
+Developed a comprehensive digital management system and Admin Panel forMerpati Solo Bakery to streamline product management, order tracking, andcustomer engagement.
+UX/UI Design: Independently crafted user personas and high-fidelity interfacedesigns manually from scratch using Figma, ensuring an intuitive and user-
+centric experience.
+AI-Assisted Development: Leveraged cutting-edge AI-native developmentworkflows to rapidly prototype, optimize, and scale the frontend architectureusing Next.js, React.js, and TypeScript.
+
+
+
+
+
+
+Impact: Drastically reduced development lifecycle duration while maintainingclean, robust code and a seamless user experience.
+
+
+
+Universitas Sebelas Maret
+
+Teaching Assistant for Computer Networks Course
+
+March 2025 - June 2025 (4 months)
+Surakarta, Central Java, Indonesia
+
+As a Computer Network Practicum Assistant using Cisco's ITN 7 curriculum,
+I facilitate hands-on learning, prepare lab materials, guide students throughnetworking protocols, troubleshoot issues, and collaborate with other assistantand lecturer to align labs with course objectives. I also stay updated onnetworking technologies and provide feedback to enhance student learning.
+
+
+
+Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
+
+Cloud Computing Cohort
+
+September 2024 - December 2024 (4 months)
+Completed an intensive 4-month Cloud Computing program at BangkitAcademy, developing strong expertise in cloud infrastructure design, backenddevelopment, and system scalability.
+Capstone Project Implementation (KulinerKita):
+Developed the cloud infrastructure and server-side logic for "KulinerKita,"
+a culinary recommendation mobile app tailored for Surakarta's tourism andMSME ecosystem.
+Architected & Deployed: Utilized Google Cloud native services, includingCloud Run and App Engine, to deploy a modular, serverless applicationframework capable of adapting to growing user demand.
+Engineered APIs: Developed robust RESTful APIs with Node.js and Express tohandle advanced frontend queries, filtering culinary spots by subdistrict, pricerange, and weather conditions.
+Managed Data & ML Integration: Administered Cloud SQL (MySQL) databasesand integrated deployed machine learning models to deliver real-time,
+personalized restaurant suggestions.
+GitHub: https://github.com/kulinerkita/
+
+
+
+
+
+
+Education
+
+Universitas Sebelas Maret
+
+Bachelor's degree, Informatics · (2022 - 2026)
+
+
+
+SMA Negeri 1 Pontianak
+
+Science · (July 2019 - April 2022)
+
+
+
+
+
+
