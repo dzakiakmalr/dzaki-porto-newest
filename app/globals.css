@@ -309,3 +309,9 @@ h4,
   background: var(--color-brand-500);
   color: #ffffff;
 }
+
+/* Hide the fixed navbar while the lightbox is open */
+body.no-nav header {
+  opacity: 0;
+  pointer-events: none;
+}

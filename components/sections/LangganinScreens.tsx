@@ -68,9 +68,11 @@ export function LangganinScreens() {
     };
     window.addEventListener("keydown", onKey);
     document.body.style.overflow = "hidden";
+    document.body.classList.add("no-nav");
     return () => {
       window.removeEventListener("keydown", onKey);
       document.body.style.overflow = "";
+      document.body.classList.remove("no-nav");
     };
   }, [open]);
 
