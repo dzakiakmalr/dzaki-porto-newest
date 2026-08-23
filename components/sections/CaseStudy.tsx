@@ -1,7 +1,7 @@
 import { ExternalLink, GitFork, Sparkles, Quote, ArrowRight } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
 import { Badge } from "@/components/ui/Badge";
-import { HeroPreview } from "@/components/sections/HeroPreview";
+import { LangganinScreens } from "@/components/sections/LangganinScreens";
 
 const TAGS = [
   { label: "Next.js", color: "#3D6FCC", logo: "/nextjs.svg" },
@@ -111,7 +111,7 @@ export function CaseStudy() {
 
             <Reveal delay={0.1}>
               <div className="lg:sticky lg:top-24">
-                <HeroPreview />
+                <LangganinScreens />
               </div>
             </Reveal>
           </div>
