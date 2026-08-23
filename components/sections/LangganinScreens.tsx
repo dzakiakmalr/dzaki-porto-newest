@@ -33,6 +33,24 @@ export function LangganinScreens() {
     });
   }, []);
 
+  const onScroll = useCallback(() => {
+    const track = trackRef.current;
+    if (!track) return;
+    const center = track.scrollLeft + track.clientWidth / 2;
+    const slides = track.querySelectorAll<HTMLElement>("[data-slide]");
+    let closest = 0;
+    let closestDist = Infinity;
+    slides.forEach((slide, i) => {
+      const slideCenter = slide.offsetLeft + slide.offsetWidth / 2;
+      const dist = Math.abs(slideCenter - center);
+      if (dist < closestDist) {
+        closestDist = dist;
+        closest = i;
+      }
+    });
+    setIndex(closest);
+  }, []);
+
   const go = useCallback(
     (delta: number) => {
       const next = (index + delta + SHOTS.length) % SHOTS.length;
@@ -63,6 +81,7 @@ export function LangganinScreens() {
           ref={trackRef}
           role="region"
           aria-label="Langganin screenshots"
+          onScroll={onScroll}
           className="flex snap-x snap-mandatory gap-3 overflow-x-auto pb-1 [scrollbar-width:thin]"
         >
           {SHOTS.map((shot, i) => (
@@ -119,15 +138,15 @@ export function LangganinScreens() {
           aria-modal="true"
           aria-label={SHOTS[open].alt}
           onClick={() => setOpen(null)}
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4 backdrop-blur-md"
+          className="fixed inset-0 z-[60] flex items-center justify-center bg-black/50 p-4 backdrop-blur-md"
         >
           <button
             type="button"
             onClick={() => setOpen(null)}
             aria-label="Close"
-            className="absolute right-4 top-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/15 text-white transition-colors hover:bg-white/25 focus-visible:ring-2 focus-visible:ring-white/60 focus-visible:outline-none"
+            className="absolute right-3 top-3 inline-flex h-11 w-11 items-center justify-center rounded-full bg-black/70 text-white shadow-lg backdrop-blur-sm transition-colors hover:bg-black/90 focus-visible:ring-2 focus-visible:ring-white/60 focus-visible:outline-none sm:right-4 sm:top-4"
           >
-            <X size={20} />
+            <X size={22} />
           </button>
 
           <button
@@ -137,9 +156,9 @@ export function LangganinScreens() {
               setOpen((v) => (v === null ? v : (v - 1 + SHOTS.length) % SHOTS.length));
             }}
             aria-label="Previous screenshot"
-            className="absolute left-2 top-1/2 inline-flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-pill bg-white/15 text-white transition-colors hover:bg-white/25 focus-visible:ring-2 focus-visible:ring-white/60 focus-visible:outline-none sm:left-4"
+            className="absolute left-2 top-1/2 inline-flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black/70 text-white shadow-lg backdrop-blur-sm transition-colors hover:bg-black/90 focus-visible:ring-2 focus-visible:ring-white/60 focus-visible:outline-none sm:left-5"
           >
-            <ChevronLeft size={22} />
+            <ChevronLeft size={24} />
           </button>
 
           <Image
@@ -158,9 +177,9 @@ export function LangganinScreens() {
               setOpen((v) => (v === null ? v : (v + 1) % SHOTS.length));
             }}
             aria-label="Next screenshot"
-            className="absolute right-2 top-1/2 inline-flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-pill bg-white/15 text-white transition-colors hover:bg-white/25 focus-visible:ring-2 focus-visible:ring-white/60 focus-visible:outline-none sm:right-4"
+            className="absolute right-2 top-1/2 inline-flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full bg-black/70 text-white shadow-lg backdrop-blur-sm transition-colors hover:bg-black/90 focus-visible:ring-2 focus-visible:ring-white/60 focus-visible:outline-none sm:right-5"
           >
-            <ChevronRight size={22} />
+            <ChevronRight size={24} />
           </button>
         </div>
       )}
