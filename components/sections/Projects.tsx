@@ -14,7 +14,7 @@ export function Projects() {
             <h2 className="font-display text-3xl font-bold text-text">
               More work
             </h2>
-            <p className="max-w-xl text-text-muted">
+            <p className="max-w-xl text-justify text-text-muted">
               Two more real projects to show range, client work and cloud
               infrastructure.
             </p>
@@ -35,11 +35,11 @@ export function Projects() {
                     </span>
                   </div>
 
-                  <p className="text-sm leading-relaxed text-text-muted">
+                  <p className="text-justify text-sm leading-relaxed text-text-muted">
                     <span className="font-semibold text-text">Problem.</span>{" "}
                     {project.problem}
                   </p>
-                  <p className="mt-2 text-sm leading-relaxed text-text-muted">
+                  <p className="mt-2 text-justify text-sm leading-relaxed text-text-muted">
                     <span className="font-semibold text-text">What I did.</span>{" "}
                     {project.did}
                   </p>

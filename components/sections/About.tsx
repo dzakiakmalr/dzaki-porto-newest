@@ -37,7 +37,7 @@ export function About() {
                 <h2 className="mb-3 font-display text-3xl font-bold text-text">
                   Who I am
                 </h2>
-                <p className="max-w-2xl text-base leading-relaxed text-text-muted">
+                <p className="max-w-2xl text-justify text-base leading-relaxed text-text-muted">
                   I build AI-native products that get used. Langganin grew out
                   of a fear I had as a student, of falling behind on a free
                   trial and getting charged without warning. So my way of

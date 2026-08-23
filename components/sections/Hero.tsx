@@ -25,7 +25,7 @@ export function Hero() {
               </p>
             </div>
 
-            <p className="max-w-md text-lg leading-relaxed text-text-muted">
+            <p className="max-w-md text-justify text-lg leading-relaxed text-text-muted">
               Langganin started from a problem I lived through. As a student, I
               can&apos;t afford a surprise charge when a free AI trial runs out, so
               I built something to keep track of subscriptions. It&apos;s live now,{" "}

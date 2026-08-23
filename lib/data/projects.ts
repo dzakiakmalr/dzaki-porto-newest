@@ -28,8 +28,8 @@ export const projects: Project[] = [
     tags: [
       { label: "Next.js", color: "#3D6FCC", logo: "/nextjs.svg" },
       { label: "TypeScript", color: "#2F8F5E", logo: "/typescript.svg" },
-      { label: "Tailwind", color: "#C77B1E", logo: "/tailwindcss.svg" },
-      { label: "AI-assisted", color: "#E26B43", logo: "/ai-assisted.svg" },
+      { label: "Tailwind", color: "#9A5A10", logo: "/tailwindcss.svg" },
+      { label: "AI-assisted", color: "#A84622", logo: "/ai-assisted.svg" },
     ],
     demoUrl: "https://langganin.vercel.app",
     repoUrl: "https://github.com/kulinerkita",

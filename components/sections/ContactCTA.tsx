@@ -45,7 +45,7 @@ export function ContactCTA() {
             <h2 className="font-display text-3xl font-bold text-text sm:text-4xl">
               Let&apos;s build something together
             </h2>
-            <p className="mx-auto mt-3 max-w-md text-text-muted">
+            <p className="mx-auto mt-3 max-w-md text-justify text-text-muted">
               Tell me what you&apos;re building and who you need. The quickest way
               to reach me is email, or you can leave a message below.
             </p>

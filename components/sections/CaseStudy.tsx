@@ -6,8 +6,8 @@ import { HeroPreview } from "@/components/sections/HeroPreview";
 const TAGS = [
   { label: "Next.js", color: "#3D6FCC", logo: "/nextjs.svg" },
   { label: "TypeScript", color: "#2F8F5E", logo: "/typescript.svg" },
-  { label: "Tailwind", color: "#C77B1E", logo: "/tailwindcss.svg" },
-  { label: "AI-assisted", color: "#E26B43", logo: "/ai-assisted.svg" },
+  { label: "Tailwind", color: "#9A5A10", logo: "/tailwindcss.svg" },
+  { label: "AI-assisted", color: "#A84622", logo: "/ai-assisted.svg" },
 ];
 
 const EMAIL = "dzakirabbania@gmail.com";
@@ -25,7 +25,7 @@ export function CaseStudy() {
             <h2 className="font-display text-3xl font-bold text-text sm:text-4xl">
                 Langganin started with a problem I actually had
               </h2>
-            <p className="text-text-muted">
+            <p className="text-justify text-text-muted">
               This is the live product behind my whole claim. It&apos;s open
               source, publicly available, and the kind of tool I&apos;d want
               myself.
@@ -56,7 +56,7 @@ export function CaseStudy() {
                   </p>
                 </div>
 
-                <div className="space-y-4 text-sm leading-relaxed">
+                <div className="space-y-4 text-justify text-sm leading-relaxed">
                   <p className="text-text-muted">
                     <span className="font-semibold text-text">The problem.</span>{" "}
                     As a student, I couldn&apos;t afford the shock of a surprise
@@ -101,7 +101,7 @@ export function CaseStudy() {
                 </a>
               </div>
 
-              <p className="rounded-card bg-surface p-4 text-xs leading-relaxed text-text-muted shadow-md">
+              <p className="rounded-card bg-surface p-4 text-justify text-xs leading-relaxed text-text-muted shadow-md">
                 <span className="font-semibold text-text">Honest note:</span>{" "}
                 the landing page is live and open for anyone to see. The backend
                 is still in progress, so I&apos;m showing the design and the build
