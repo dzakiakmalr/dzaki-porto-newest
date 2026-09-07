@@ -32,7 +32,7 @@ export const projects: Project[] = [
       { label: "AI-assisted", color: "#A84622", logo: "/ai-assisted.svg" },
     ],
     demoUrl: "https://langganin.vercel.app",
-    repoUrl: "https://github.com/kulinerkita",
+    repoUrl: "https://github.com/dzakiakmalr/langganin",
     featured: true,
   },
   {

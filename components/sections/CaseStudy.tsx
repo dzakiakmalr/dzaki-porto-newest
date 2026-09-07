@@ -91,7 +91,7 @@ export function CaseStudy() {
                   Open Langganin
                 </a>
                 <a
-                  href="https://github.com/kulinerkita"
+                  href="https://github.com/dzakiakmalr/langganin"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-1.5 rounded-pill px-5 py-3 text-sm font-semibold text-text-muted transition-colors hover:bg-clay-100 hover:text-text focus-visible:ring-2 focus-visible:ring-brand-500/40 focus-visible:outline-none"

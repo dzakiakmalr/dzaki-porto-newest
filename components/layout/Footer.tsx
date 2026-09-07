@@ -26,7 +26,7 @@ export function Footer() {
           </a>
           {[
             {
-              href: "https://github.com/kulinerkita",
+              href: "https://github.com/dzakiakmalr",
               label: "GitHub",
               Icon: GitFork,
             },
