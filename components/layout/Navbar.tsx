@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, FileDown } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
 const EMAIL = "dzakirabbania@gmail.com";
@@ -81,6 +81,16 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
+            <a
+              href="/CV_Dzaki.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(false)}
+              className="mt-2 inline-flex items-center justify-center gap-1.5 rounded-pill bg-[#C62816] px-4 py-3 text-center text-sm font-bold text-white shadow-sm transition-[transform,box-shadow] duration-200 ease-out hover:-translate-y-[1px] hover:bg-[#A81F10] hover:shadow-md focus-visible:ring-2 focus-visible:ring-[#C62816]/40 focus-visible:outline-none"
+            >
+              <FileDown size={16} />
+              Download CV
+            </a>
             <a
               href={`mailto:${EMAIL}`}
               className="mt-2 rounded-pill bg-brand-500 px-4 py-3 text-center text-sm font-bold text-white shadow-clay transition-[transform,box-shadow] duration-200 ease-out hover:-translate-y-[1px] hover:shadow-clay-hover"
